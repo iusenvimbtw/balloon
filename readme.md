@@ -30,6 +30,7 @@ For Linux users, particularly those using **i3** or **Hyprland**, shortcuts can 
 
 ### i3 Key Bindings:
 ```sh
+bindsym $win+m exec --no-startup-id "sleep 0.1 && xdotool getwindowfocus windowactivate --sync key ctrl+shift+m"
 bindsym $win+bracketleft exec --no-startup-id "sleep 0.13 && xdotool key ctrl+shift+1"
 bindsym $win+bracketright exec --no-startup-id "sleep 0.13 && xdotool key ctrl+shift+2"
 bindsym $win+semicolon exec --no-startup-id "sleep 0.13 && xdotool key ctrl+shift+3"
