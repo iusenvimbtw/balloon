@@ -39,10 +39,11 @@ bindsym $win+apostrophe exec --no-startup-id "sleep 0.13 && xdotool key ctrl+shi
 ## ( SINCE I DONT USE HYPRLAND I ASKED CLAUDE AND IT SAID WTYPE IS THE XDOTOOL EQUIVALENT)
 ### Hyprland Key Bindings:
 ```ini
-bind = SUPER, bracketleft, exec, wtype -k ctrl+shift+1
-bind = SUPER, bracketright, exec, wtype -k ctrl+shift+2
-bind = SUPER, semicolon, exec, wtype -k ctrl+shift+3
-bind = SUPER, apostrophe, exec, wtype -k ctrl+shift+4
+bind = SUPER, bracketleft, exec, sleep 0.13 && wtype -k ctrl+shift+1
+bind = SUPER, bracketright, exec, sleep 0.13 && wtype -k ctrl+shift+2
+bind = SUPER, semicolon, exec, sleep 0.13 && wtype -k ctrl+shift+3
+bind = SUPER, apostrophe, exec, sleep 0.13 && wtype -k ctrl+shift+4
+bind = SUPER, M, exec, sleep 0.1 && wtype -k ctrl+shift+m
 ```
 
 ## These bindings allow users to trigger tab switching commands even faster by mapping them to the window manager's key bindings.
