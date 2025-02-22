@@ -46,7 +46,7 @@ bind = SUPER, apostrophe, exec, sleep 0.13 && wtype -k ctrl+shift+4
 bind = SUPER, M, exec, sleep 0.1 && wtype -k ctrl+shift+m
 ```
 
-### MAC OS (I dont use it hence claude GENERATED if doesnr work try adding some sleep time )
+### MAC OS (I dont use it hence claude GENERATED if doesnt work try adding some sleep time )
 ```ini
 super + m
     osascript -e 'tell application "System Events" to keystroke "m" using {control down, shift down}'
@@ -65,7 +65,7 @@ super + apostrophe
 
 ```
 
-## These are keybinds for Windows +     [       ]         ;          '       M'
+## These are keybinds for Windows +     [       ]         ;          '       M
 
 ## These bindings allow users to trigger tab switching commands even faster by mapping them to the window manager's key bindings.
 
